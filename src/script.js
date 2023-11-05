@@ -6,6 +6,11 @@ function saveNick() {
 function saveServ() {
   localStorage.setItem("serv", document.getElementById('serv').value);
 }
+if (localStorage.getItem("first") == null) {
+  localStorage.setItem("first", "false");
+  localStorage.setItem("serv", "wss://agrochat.gromov1.repl.co")
+  document.getElementById('serv').value = "wss://agrochat.gromov1.repl.co"
+}
 
 window.addEventListener("load", (event) => {
   let socket = new WebSocket(localStorage.getItem("serv"));
