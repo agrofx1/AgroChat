@@ -30,13 +30,13 @@ You can learn more at [Caddy's Documentation](https://caddyserver.com/docs/quick
 ### Client
 Open developer tools F12 -> Console and check the error
 
-**Uncaught DOMException: Failed to construct 'WebSocket': The URL '' is invalid.**
+#### Uncaught DOMException: Failed to construct 'WebSocket': The URL '' is invalid.
 You need to set the server. If you just wanna test use wss://agrochat.gromov1.repl.co
-**WebSocket connection to 'wss://agrochat.gromov1.repl.co/' failed:**
+#### WebSocket connection to 'wss://agrochat.gromov1.repl.co/' failed:
 Connection to server failed. Check your internet connection or it might be replit error
 
 ### Server
-**ModuleNotFoundError: No module named 'websockets'**
+#### ModuleNotFoundError: No module named 'websockets'
 You need to install requirements:
 ```
 pip install -r requirements.txt
