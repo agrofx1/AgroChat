@@ -25,7 +25,7 @@ caddy file-server
 ```
 You can learn more at [Caddy's Documentation](https://caddyserver.com/docs/quick-starts/static-files)
 
-## Troubleshouting
+## Troubleshooting
 
 ### Client
 Open developer tools F12 -> Console and check the error
