@@ -1,6 +1,8 @@
 # AgroChat
 The simple and clean chat written in Python. It uses websockets technology
 
+Check it right now at: https://chat.agrofx.net
+
 ![Screeshot](ss/site.png)
 
 ## Deploy
